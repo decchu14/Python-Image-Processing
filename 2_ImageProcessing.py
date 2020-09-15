@@ -1,7 +1,7 @@
 # this simple code is to filter or convert the image
 from PIL import Image, ImageFilter
 img = Image.open('pokedex/pikachu.jpg')
-
+0
 # will filter the image to blur or smooth or sharpen and store it in variable named filtered_img
 filtered_image = img.filter(ImageFilter.BLUR)  # SMOOTH, SHARPEN
 
